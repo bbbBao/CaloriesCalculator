@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Calories Calculator</string>
+    <string name="textView4">Total Calories: </string>
+    <string name="output">0</string>
+    <string name="item1">Hamburger - 375 cal</string>
+    <string name="item2">French Fries - 365 cal</string>
+    <string name="item3">Coke - 150 cal</string>
+    <string name="textView6">Enter your quantity below: </string>
+</resources>
