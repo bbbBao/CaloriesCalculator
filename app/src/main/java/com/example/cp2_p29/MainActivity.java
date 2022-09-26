@@ -22,9 +22,11 @@ public class MainActivity extends AppCompatActivity {
         EditText item2 = findViewById(R.id.itemNumber2);
         EditText item3 = findViewById(R.id.itemNumber3);
         TextView output = findViewById(R.id.output);
-        int total = (Integer.parseInt(item1.getText().toString()) * 375) +
-                (Integer.parseInt(item2.getText().toString()) * 365) +
-                (Integer.parseInt(item3.getText().toString()) * 150);
+        int[] calories = {375, 365, 150};
+
+        int total = (Integer.parseInt(item1.getText().toString()) * calories[0]) +
+                (Integer.parseInt(item2.getText().toString()) * calories[1]) +
+                (Integer.parseInt(item3.getText().toString()) * calories[2]);
 
         output.setText(String.valueOf(total));
 
